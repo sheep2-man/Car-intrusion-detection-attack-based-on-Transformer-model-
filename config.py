@@ -1,0 +1,13 @@
+d_model=64      #字嵌入,位置嵌入维度
+n_layers = 6  # number of Encoder  Layer
+n_heads = 8  # number of heads in Multi-Head Attention
+dropout=0.3
+seq_len=90
+trainbatchsize=256
+learing_rate=1e-3
+momentum=0.99
+epochtime=20
+numclass=5
+model='TD'
+# model='DNN'
+# model='TP'
