@@ -1,11 +1,11 @@
+import torch
 import torch.nn as nn
 import torch.optim as optim
-import config
-import torch
-import time
-from torch.utils.data import Dataset, DataLoader
-from getdata import MyData
 from sklearn.metrics import precision_score, recall_score, f1_score
+from torch.utils.data import DataLoader
+
+import config
+from getdata import MyData
 
 
 def epoch_time(start_time, end_time):
