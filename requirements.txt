@@ -1,2 +1,2 @@
 torch==2.0.1
-sklearn==
+sklearn==1.5.0
